@@ -86,23 +86,26 @@ public class Quiz extends AppCompatActivity {
         tbLayout = findViewById(R.id.table1);
 
         questions = new Question[]{
-                new Question("Which is a small diagonal line\nplaced above a letter?\n","فَتْحَة",new Options[]
+                new Question("The letters أ is belong from which makharij","Halqiyah",new Options[]
                         {
-                                new Options("كَسْرَة"),
-                                new Options("فَتْحَة"),
-                                new Options("ضَمَّة"),
+                                new Options("Lahatiyah"),
+                                new Options("Tarfiyah"),
+                                new Options("Halqiyah"),
+
                         }),
-                new Question("How many alphabets are in\nArabic?\n","29",new Options[]
+                new Question("The letters ق is belong from which makharij","Lahatiyah",new Options[]
                         {
-                                new Options("29"),
-                                new Options("25"),
-                                new Options("20"),
+                                new Options("Lahatiyah"),
+                                new Options("Tarfiyah"),
+                                new Options("Niteeyah"),
+
                         }),
-                new Question("Is ض ظ and ث س ص sound same? \n","true",new Options[]
+                new Question("The letters د is belong from which makharij","Niteeyah",new Options[]
                         {
-                                new Options("true"),
-                                new Options("false"),
-                                new Options("none of these"),
+                                new Options("Lahatiyah"),
+                                new Options("Tarfiyah"),
+                                new Options("Niteeyah"),
+
                         }),
                 new Question("How many Makhārij (مخارج Emission) points\nare require to correctly read Quran?\n","17",new Options[]
                         {
@@ -110,17 +113,19 @@ public class Quiz extends AppCompatActivity {
                                 new Options("21"),
                                 new Options("19"),
                         }),
-                new Question("How many diacritics are present\nin the word رَحْمٰن?\n","3",new Options[]
+                new Question("The letters ل is belong from which makharij","Tarfiyah",new Options[]
                         {
-                                new Options("2"),
-                                new Options("3"),
-                                new Options("1"),
+                                new Options("Lahatiyah"),
+                                new Options("Tarfiyah"),
+                                new Options("Niteeyah"),
+
                         }),
-                new Question("Which alphabets are called as\n‘Qalqalah’\n","ب",new Options[]
+                new Question("The letters د is belong from which makharij","Niteeyah",new Options[]
                         {
-                                new Options("ض"),
-                                new Options("ب"),
-                                new Options("ص"),
+                                new Options("Lahatiyah"),
+                                new Options("Tarfiyah"),
+                                new Options("Niteeyah"),
+
                         }),
                 new Question("Which letters when pronounced produce\na ‘whistling’ sound?\n","ز",new Options[]
                         {
@@ -196,7 +201,7 @@ public class Quiz extends AppCompatActivity {
 
         submit = new Button(this);
         submit.setText("Submit");
-//        submit.setId(101);
+
         tbRow = new TableRow(this);
         tbRow.addView(submit);
         tbLayout.addView(tbRow);
