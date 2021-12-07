@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_halqiyah"
+        android:title="  Halqiyah"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_lahatiyah"
+        android:title="  Lahatiyah"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_shajariyah"
+        android:title="  Shajariyah_H_aafiyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_tarfiyah"
+        android:title="  Tarfiyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_nitEeyah"
+        android:title="  Nit_Eeeyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_lisaveyah"
+        android:title="  Lisaveyah"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_ghunna"
+        android:title="  Ghunna"
+        app:showAsAction="never"/>
+</menu>
